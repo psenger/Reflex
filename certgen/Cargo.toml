@@ -1,0 +1,15 @@
+[package]
+name = "certgen"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "ib-certgen"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+rcgen = { workspace = true }
+rand = { workspace = true }

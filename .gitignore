@@ -1,0 +1,17 @@
+# Rust
+/target/
+
+# Credentials minted by ib-certgen or the openssl recipes in doc/.
+# Nothing here belongs in the repository; tests mint their own in a temp dir.
+/certs/
+*.pem
+*.key
+*.csr
+*.srl
+*.token
+tokens.txt
+
+# Editors and OS
+/.idea/
+/.vscode/
+.DS_Store
